@@ -10,7 +10,7 @@
         <constructor-arg name="hibernateSessionFactory" ref="hibernateSessionFactory"/>
     </bean>
 
-    <bean class="org.test.service.HibernateSessionFactory" id="hibernateSessionFactory"/>
+    <bean class="org.test.service.service.HibernateSessionFactory" id="hibernateSessionFactory"/>
 
     <bean class="org.test.service.service.DogService">
         <constructor-arg name="hibernateSessionFactory" ref="hibernateSessionFactory"/>
