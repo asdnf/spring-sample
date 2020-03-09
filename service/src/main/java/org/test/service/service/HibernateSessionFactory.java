@@ -18,7 +18,7 @@ public class HibernateSessionFactory {
         } catch (Exception e) {
             StandardServiceRegistryBuilder.destroy(registry);
 
-            throw new ExceptionInInitializerError("Initial SessionFactory failed " + e);
+            new ExceptionInInitializerError("Initial SessionFactory failed " + e).printStackTrace();
         }
         return sessionFactory;
     }
