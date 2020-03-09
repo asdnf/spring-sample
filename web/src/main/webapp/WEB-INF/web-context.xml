@@ -17,6 +17,6 @@
     
     <mvc:resources mapping="/**" location="/res/"/>
 
-    <import resource="/context.xml"/>
+    <import resource="classpath:/context.xml"/>
 
 </beans>
