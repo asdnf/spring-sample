@@ -23,10 +23,10 @@
     <tbody>
     <c:forEach var="ele" items="${list}">
         <tr>
-            <td><c:out value="${ele.id}"></td>
-            <td><c:out value="${ele.name}"></td>
-            <td><c:out value="${ele.age}"></td>
-            <td><c:out value="${ele.color}"></td>
+            <td><c:out value="${ele.id}"/></td>
+            <td><c:out value="${ele.name}"/></td>
+            <td><c:out value="${ele.age}"/></td>
+            <td><c:out value="${ele.color}"/></td>
         </tr>
     </c:forEach>
     </tbody>
